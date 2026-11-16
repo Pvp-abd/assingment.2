@@ -15,7 +15,7 @@ print("sorted aphabetically:",c)
 c.reverse()
 print("reversed:",c)
 
-teacher = {"name": "Mr. Sharma", "subject": "Python", "experience": 5}
+teacher = {"name": "mr white", "subject": "Python", "experience": 5}
 print("\nTeacher profile:", teacher)
 
 print("Subject:", teacher["subject"])
@@ -26,7 +26,7 @@ teacher.pop("experience")
 print("Updated teacher profile:", teacher)
 
 roll_numbers = [1, 2, 3, 4, 5]
-names = ["Aarav", "Priya", "Rahul", "Sneha", "Meera"]
+names = ["nice", "apple", "no", "Sneha", "mia"]
 student_directory = dict(zip(roll_numbers, names))
 print("\nStudent Directory:", student_directory)
 print("Student at Roll 3:", student_directory[3])
